@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Classe de aula</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="imagem/png" href="./image/icone.png" />
+
+    <link rel="stylesheet" href="./main.css">
+    <script src="./cpf.js"></script>
+    <script src="./par_ou_impar.js"></script>
+    <script src="./temperatura1.js"></script>   
+    <script src="./calculadora.js"></script>
+</head>
+<body>
+    <main>
+        <section class= bg>
+
+        
+            <div class= "card">
+            <h2>De qual estado você é? </h2>
+            <h4>🙋 Informe o seu CPF 🙋‍♂️</h4>
+            <input id="entrada" type="text"
+            placeholder="123.456.789-00">
+            <button onclick="verificarCPF()">Verificar</button><br>
+            Resultado: <span id="saida"></span>
+            </div>
+
+            <div class= "card">
+            <h2>Seu número é par ou ímpar?</h2>
+            <h4 id="teste"> 🃏 Informe um número 🃏 </h4>
+            <input id="entrada_par_ou_impar" type="text"
+            placeholder="Escreva aqui">
+            <button onclick="verificar_par_ou_impar()">Verificar</button><br>
+            Resultado: <span id="saida_par_ou_impar"></span>
+            </div>
+            
+            <div class= "card">
+            <h2>Conversor de temperatura</h2>
+            <h3> Fahrenheit para Celcius</h3>
+            <h4> Digite uma temperatura em Fahrenheit: </h4>
+            <input id="entrada_temperatura1" type="text"
+            placeholder="ºF">
+            <button onclick="verificar_temperatura1()">Verificar</button><br>
+            Resultado: <span id="saida_temperatura1"></span>
+            </div>
+
+            <div class= "card">
+            <h2>Calculadora de maçãs 🍎 </h2>
+            <input type="number" id="numero1" placeholder="Quantas maçãs você tem?">
+            <input type="number" id="numero2" placeholder="E seu amigo?"><br>
+             <div id= "botoes">
+            <button id="bolinha" onclick="calcular(event)">+</button>
+            <button id="bolinha" onclick="calcular(event)">-</button>
+            <button id="bolinha" onclick="calcular(event)">*</button>
+            <button id="bolinha" onclick="calcular(event)">/</button>
+            </div>
+            <br>
+            Resultado: <span id="resultado"></span>
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+</body>
+</html>
