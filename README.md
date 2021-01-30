@@ -1,2 +1,4 @@
-# 4calculadoras
-Projeto com o intuito de ensinar as crianças. 4 calculadoras em um quadro de aula.
+# Projeto Sala de aula
+Projeto criato com o intuito de representar uma sala de aula e ajudar as crianças no seu aprendizado.
+
+
